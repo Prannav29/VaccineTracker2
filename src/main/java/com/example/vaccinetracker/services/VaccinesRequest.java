@@ -77,7 +77,7 @@ public class VaccinesRequest {
         Session session=Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("prannav.accomplish@gmail.com", "i##msaved29");
+                return new PasswordAuthentication("<emailid>", "<password>");
             }
         });
 
